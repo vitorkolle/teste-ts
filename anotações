@@ -1,0 +1,19 @@
+Comando para instalação:
+'npm install typescript --save-dev'
+
+Comando para listar comandos do compilador:
+'npx tsc'
+
+Comando para iniciar compilador:
+'npx tsc --init'
+
+'tsconfig.json' é o coração do typescript, podendo ativar ou desativar diversos parâmetros
+
+'npx tsc -w' Faz com que o typescript observe as mudanças no código para compilar em js, o resultado disso estará na pasta 'build'
+
+o TS pode atribuir o tipo de dado de duas formas:
+ - Explícito: Quando se coloca o tipo de dado ao criar a variável;
+ - Implícito: Atribui o valor através do valor passado para a variável (não faz sentido usar);
+
+ 
+
